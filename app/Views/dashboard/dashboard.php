@@ -19,7 +19,7 @@
     
     <div class="w-full m-auto flex justify-evenly mb-6">
 
-        <a href="#" class="block w-[280px] px-8 py-3 bg-[#fff0f3] rounded-md cursor-pointer active:scale-95 active:bg-[#FFE1E7] duration-400 hover:shadow-sombrita hover:scale-105">
+        <a href="<?= base_url('mascotas') ?>" class="block w-[280px] px-8 py-3 bg-[#fff0f3] rounded-md cursor-pointer active:scale-95 active:bg-[#FFE1E7] duration-400 hover:shadow-sombrita hover:scale-105">
             <figure class="w-[150px] m-auto flex flex-col gap-4 items-center">
                 <img src="<?= base_url('src/images/huella.svg') ?>" alt="">
                 <figcaption>

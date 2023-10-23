@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
-    <title>Huellitas</title>
+    <title>Huellitas - <?= $title ?></title>
     <script>
         tailwind.config = {
             theme: {
@@ -32,7 +32,7 @@
     
     <nav class="w-full bg-white border-gray-200 dark:bg-gray-900 mb-6">
         <div class="max-w-[90%] flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="#" class="flex items-center">
+            <a href="<?= base_url('dashboard') ?>" class="flex items-center">
                 <img src="<?= base_url('src/images/icon.svg') ?>" class="h-8 mr-3" alt="Flowbite Logo" />
                 <span class="self-center text-2xl font-base whitespace-nowrap dark:text-white font-titan">Huellitas</span>
             </a>
@@ -48,10 +48,10 @@
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul class="font-medium flex flex-col gap-4 p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                 <li>
-                <a href="#" class="block px-3 py-2 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent active:scale-95">Inicio</a>
+                <a href="<?= base_url('dashboard') ?>" class="block px-3 py-2 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent active:scale-95">Inicio</a>
                 </li>
                 <li>
-                <a href="#" class="block px-3 py-2 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent active:scale-95">Mascotas</a>
+                <a href="<?= base_url('mascotas') ?>" class="block px-3 py-2 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent active:scale-95">Mascotas</a>
                 </li>
                 <li>
                 <a href="#" class="block px-3 py-2 text-lg text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent active:scale-95">Dietas</a>
